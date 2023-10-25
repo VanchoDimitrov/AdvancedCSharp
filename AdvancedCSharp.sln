@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEndPart1", "ClassLibrary1\BackEndPart1.csproj", "{1E26D71B-1636-4707-87AB-E3D046063BED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEndPart1", "BackEndPart1\BackEndPart1.csproj", "{1E26D71B-1636-4707-87AB-E3D046063BED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 1", "Part 1", "{E3DB0293-814D-44C5-AF6F-F8800C204EDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementationPart1", "Implementation\ImplementationPart1.csproj", "{F7B745A5-B493-4F90-98AA-215CCDE6B008}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementationPart1", "ImplementationPart1\ImplementationPart1.csproj", "{F7B745A5-B493-4F90-98AA-215CCDE6B008}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 2", "Part 2", "{CD45EF13-D1CC-4CDF-A650-38D3090BFDE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEndPart2", "BackEnd\BackEndPart2.csproj", "{AC989CAB-D733-406A-AEE0-1ECA76CAD9FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEndPart2", "BackEndPart2\BackEndPart2.csproj", "{AC989CAB-D733-406A-AEE0-1ECA76CAD9FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementationPart2", "ImplementationPart2\ImplementationPart2.csproj", "{1A304FAA-A59B-4FA5-A413-A7BD85FC5D9A}"
 EndProject

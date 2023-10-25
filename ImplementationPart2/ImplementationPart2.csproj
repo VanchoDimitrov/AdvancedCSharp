@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BackEnd\BackEndPart2.csproj" />
+    <ProjectReference Include="..\BackEndPart2\BackEndPart2.csproj" />
   </ItemGroup>
 
 </Project>
