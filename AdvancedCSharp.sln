@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEndPart1", "BackEndPart1\BackEndPart1.csproj", "{1E26D71B-1636-4707-87AB-E3D046063BED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEndPart1", "BackEndPart1\BackEndPart1.csproj", "{1E26D71B-1636-4707-87AB-E3D046063BED}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 1", "Part 1", "{E3DB0293-814D-44C5-AF6F-F8800C204EDB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 1 - FactoryPattern", "Part 1 - FactoryPattern", "{E3DB0293-814D-44C5-AF6F-F8800C204EDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementationPart1", "ImplementationPart1\ImplementationPart1.csproj", "{F7B745A5-B493-4F90-98AA-215CCDE6B008}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementationPart1", "ImplementationPart1\ImplementationPart1.csproj", "{F7B745A5-B493-4F90-98AA-215CCDE6B008}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 2", "Part 2", "{CD45EF13-D1CC-4CDF-A650-38D3090BFDE3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 2 - Delegates", "Part 2 - Delegates", "{CD45EF13-D1CC-4CDF-A650-38D3090BFDE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEndPart2", "BackEndPart2\BackEndPart2.csproj", "{AC989CAB-D733-406A-AEE0-1ECA76CAD9FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEndPart2", "BackEndPart2\BackEndPart2.csproj", "{AC989CAB-D733-406A-AEE0-1ECA76CAD9FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementationPart2", "ImplementationPart2\ImplementationPart2.csproj", "{1A304FAA-A59B-4FA5-A413-A7BD85FC5D9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementationPart2", "ImplementationPart2\ImplementationPart2.csproj", "{1A304FAA-A59B-4FA5-A413-A7BD85FC5D9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 3 MVC Console", "Part 3 MVC Console", "{118787AA-C32E-4EB3-995C-3AB29AD09A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCConsolePart3", "MVCConsolePart3\MVCConsolePart3.csproj", "{B32E594D-F0FD-451A-842E-FD49D1CC14E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEndPart3", "BackEndPart3\BackEndPart3.csproj", "{6A1BE0CF-E7C7-439C-8B75-5C2E5D13E517}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,14 @@ Global
 		{1A304FAA-A59B-4FA5-A413-A7BD85FC5D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A304FAA-A59B-4FA5-A413-A7BD85FC5D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A304FAA-A59B-4FA5-A413-A7BD85FC5D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32E594D-F0FD-451A-842E-FD49D1CC14E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32E594D-F0FD-451A-842E-FD49D1CC14E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32E594D-F0FD-451A-842E-FD49D1CC14E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32E594D-F0FD-451A-842E-FD49D1CC14E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A1BE0CF-E7C7-439C-8B75-5C2E5D13E517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1BE0CF-E7C7-439C-8B75-5C2E5D13E517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1BE0CF-E7C7-439C-8B75-5C2E5D13E517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1BE0CF-E7C7-439C-8B75-5C2E5D13E517}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +60,8 @@ Global
 		{F7B745A5-B493-4F90-98AA-215CCDE6B008} = {E3DB0293-814D-44C5-AF6F-F8800C204EDB}
 		{AC989CAB-D733-406A-AEE0-1ECA76CAD9FC} = {CD45EF13-D1CC-4CDF-A650-38D3090BFDE3}
 		{1A304FAA-A59B-4FA5-A413-A7BD85FC5D9A} = {CD45EF13-D1CC-4CDF-A650-38D3090BFDE3}
+		{B32E594D-F0FD-451A-842E-FD49D1CC14E0} = {118787AA-C32E-4EB3-995C-3AB29AD09A0D}
+		{6A1BE0CF-E7C7-439C-8B75-5C2E5D13E517} = {118787AA-C32E-4EB3-995C-3AB29AD09A0D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1D5DE1E-58C8-42DE-9802-D5048CB0AB9B}
