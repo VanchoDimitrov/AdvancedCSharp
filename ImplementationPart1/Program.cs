@@ -7,7 +7,7 @@ public class Program
 {
     public static void Main()
     {
-        List<ICustomer> customers = new List<ICustomer>();
+        List<ICustomer> customers = new();
 
         DataRepository.SeedData(customers);
 
